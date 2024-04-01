@@ -1,0 +1,123 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: url('t3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.header
+{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 20px 100px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo
+{
+    font-size: 32px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a{
+  position: relative;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+}
+.navbar a::before
+{ 
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #FFF;
+    transition: .4s;
+}
+
+
+.navbar a:hover::before
+{
+    width: 100%;
+}
+
+.pcontainer
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 300px;
+}
+.item5
+{
+    background-color: black;
+    color: white;
+    height: 150px;
+    width: 200px;
+    border-radius: 10%;
+    padding-top: 40px;
+}
+.item6
+{
+    background-color: black;
+    color: white;
+    height: 150px;
+    width: 200px;
+    border-radius: 10%;
+    padding-top: 40px;
+}
+.item7
+{
+    background-color: black;
+    color: white;
+    height: 150px;
+    width: 200px;
+    border-radius: 10%;
+    padding-top: 40px;
+}
+.pcontainer .b
+{   
+    margin-top: 15px;
+    margin-left: 70px;
+    background-color: rgb(192, 48, 48);
+    color: white;
+    border-radius: 20%;
+}
+footer
+{
+    background-color: black;
+    width: auto;
+    height: 100px;
+    margin-top: 350px;
+}
+
+.ftext
+{
+    color: white;
+    font-weight: 500px;
+    text-align: center;
+    padding-top: 30px;
+}
+.phone
+{
+    color: white;
+    font-weight: 500px;
+    text-align: center;
+}

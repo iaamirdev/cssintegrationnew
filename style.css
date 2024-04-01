@@ -1,0 +1,187 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: url('triumph-street-triple-rs-street-bikes-2023-3840x2160-9075.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.header
+{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 20px 100px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo
+{
+    font-size: 32px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a{
+  position: relative;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+}
+.navbar a::before
+{ 
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #FFF;
+    transition: .4s;
+}
+
+
+.navbar a:hover::before
+{
+    width: 100%;
+}
+.mcontainer
+{   
+     
+    position: relative;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 40px;
+    justify-content: space-evenly;
+    width: 60vw;
+    
+}
+.item1
+{
+    background-color: black;
+    border-radius: 10%;
+    color: white;
+    height: 150px;
+    width: 200px;
+}
+.item2
+{
+    background-color: black;
+    border-radius: 10%;
+    color: rgb(255, 255, 255);
+    height: 150px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.item3
+{
+    background-color: black;
+    border-radius: 10%;
+    color: rgb(255, 255, 255);
+    height: 150px;
+    width: 200px;
+}
+.item1 ul
+{
+    list-style-type: none;
+}
+.item2 ul 
+{
+    list-style-type: none;
+}
+.item3 ul
+{
+    list-style-type: none;
+}
+.item4 ul
+{
+    list-style-type: none;
+}
+.scontainer
+{ 
+  position: absolute;
+  top:200px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1000px;
+}
+.pcontainer
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.item5
+{
+    background-color: black;
+    color: white;
+    height: 150px;
+    width: 200px;
+    border-radius: 10%;
+    padding-top: 40px;
+}
+.item6
+{
+    background-color: black;
+    color: white;
+    height: 150px;
+    width: 200px;
+    border-radius: 10%;
+    padding-top: 40px;
+}
+.item7
+{
+    background-color: black;
+    color: white;
+    height: 150px;
+    width: 200px;
+    border-radius: 10%;
+    padding-top: 40px;
+}
+.pcontainer .b
+{   
+    margin-top: 15px;
+    margin-left: 70px;
+    background-color: rgb(192, 48, 48);
+    color: white;
+    border-radius: 20%;
+}
+footer
+{
+    background-color: black;
+    width: auto;
+    height: 100px;
+}
+
+.ftext
+{
+    color: white;
+    font-weight: 500px;
+    text-align: center;
+    padding-top: 20px;
+}
+.phone
+{
+    color: white;
+    font-weight: 500px;
+    text-align: center;
+}
+
